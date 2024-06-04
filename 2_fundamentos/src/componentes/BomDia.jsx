@@ -1,5 +1,5 @@
 function BomDia() {
-  const name= "Thayane"; //Crio uma variavel //
-  return <div>Bom dia {name}</div> // Chama a variavel que criei//
+  const name = "Thayane"; //Crio uma variavel //
+  return <div>Boa tarde {name}</div>; // Chama a variavel que criei//
 }
- export default BomDia;
+export default BomDia;
