@@ -25,7 +25,7 @@ const UserInfor = () => {
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
-        placeholder="Digite o seu e-mail"
+        placeholder="Digite seu e-mail"
       />
       <button type="submit">Enviar</button>
     </form>
