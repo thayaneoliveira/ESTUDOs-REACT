@@ -9,6 +9,8 @@ import Counter from "./componentes/Counter";
 import UserInfor from "./UserInfor";
 import Button from "./Button";
 import PaiFunction from "./PaiFunction";
+import Form from "./componentes/Form";
+import RenderCondicional from "./componentes/RenderCondicional";
 
 function App() {
   return (
@@ -32,6 +34,12 @@ function App() {
       <Button />
       {/* 6.9 - Passando funções de manipulação de eventos como props */}
       <PaiFunction />
+      {/* 6.10 - eventos de form */}
+      <Form />
+      {/* 6.11 - Renderização condicional */}
+      <RenderCondicional user="Thayane" />
+      {/* 6.12 - Expressão ternaria */}
+      
     </>
   );
 }

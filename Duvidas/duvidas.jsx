@@ -10,7 +10,6 @@
 // 5
 // Atualizar
 
-
 //useState é um hook no React que permite adicionar estado a componentes de função. Com o useState, você pode declarar variáveis de estado dentro de um componente funcional. Ao atualizar o valor de uma variável de estado usando a função retornada pelo useState, o React irá re-renderizar o componente para refletir essa alteração.
 
 //onChange` é um evento em React que é acionado quando o valor de um elemento do formulário, como input, select ou textarea, é alterado pelo usuário. O evento `onChange` permite que você execute uma ação sempre que houver uma mudança no valor de um elemento do formulário.
@@ -20,3 +19,12 @@
 //O `handleSubmit` é um método em React que é usado para lidar com a submissão de formulários. Este método é normalmente chamado quando um formulário é submetido, e pode ser usado para validar os dados do formulário e executar a lógica necessária após o envio do formulário, como enviar os dados para o servidor. Este método é frequentemente utilizado em conjunto com o componente `
 
 //Esse código parece fazer parte de um componente em React, onde `ChildClick` é uma propriedade que está sendo passada para outro componente. Quando o componente filho (ou "child") recebe essa propriedade, ele pode chamar a função `handleChildClick` quando um evento específico ocorrer.
+
+//onChange={(e) => setValue(e.target.value)}
+// Esse código é um exemplo de uma função onChange usada em React. A propriedade onChange é geralmente usada para criar um evento que ocorre quando o valor de um elemento HTML é alterado, como por exemplo, em um campo de formulário.
+
+// Nesse caso específico, a função onChange está sendo definida como uma arrow function com um parâmetro "e" (representando o evento) que será disparado quando ocorrer uma mudança no valor do elemento associado.
+
+// Dentro da função, estamos chamando outra função chamada "setValue", passando o novo valor do elemento como parâmetro. Essa função "setValue" provavelmente faz parte do estado do componente e é responsável por atualizar esse estado com o novo valor.
+
+// Em resumo, toda vez que houver uma mudança no valor do elemento associado ao evento onChange, essa arrow function será executada e irá chamar a função setValue para atualizar o estado com o novo valor digitado pelo usuário.
