@@ -11,6 +11,8 @@ import Button from "./Button";
 import PaiFunction from "./PaiFunction";
 import Form from "./componentes/Form";
 import RenderCondicional from "./componentes/RenderCondicional";
+import LoginButton from "./LoginButton";
+import Warning from "./componentes/Warning";
 
 function App() {
   return (
@@ -39,7 +41,11 @@ function App() {
       {/* 6.11 - Renderização condicional */}
       <RenderCondicional user="Thayane" />
       {/* 6.12 - Expressão ternaria */}
-      
+      <LoginButton loggedIn={false} />
+      <LoginButton loggedIn={true} />
+      {/* 6.13 - Render nulo */}
+      <Warning warning="Temos um warning" />
+      {/* 6.14 - Listas e Chaves*/}
     </>
   );
 }

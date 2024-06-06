@@ -1,9 +1,10 @@
-import React from 'react'
+import Button from "./Button";
 
-const LoginButton = () => {
+const LoginButton = ({ loggedIn }) => {
+  //loggedIn botão de entrar e sair. Deslogado e logado
   return (
-    <div>LoginButton</div>
-  )
-}
+    <div>{loggedIn ? <button>Sair</button> : <button>Entrar</button>}</div>
+  );
+};
 
-export default LoginButton
+export default LoginButton;
