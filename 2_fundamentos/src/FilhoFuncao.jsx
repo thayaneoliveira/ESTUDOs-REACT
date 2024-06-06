@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const FilhoFuncao = ({onChildClick}) => {
-  return (
-  <button onClick={onChildClick}>Botão Filho</button>
-  )
-}
+const FilhoFuncao = ({ onChildClick }) => {
+  return <button onClick={onChildClick}>Botão Filho</button>;
+};
 
-export default FilhoFuncao
+export default FilhoFuncao;

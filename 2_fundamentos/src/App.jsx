@@ -13,6 +13,7 @@ import Form from "./componentes/Form";
 import RenderCondicional from "./componentes/RenderCondicional";
 import LoginButton from "./LoginButton";
 import Warning from "./componentes/Warning";
+import NumberList from "./componentes/NumberList";
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
       {/* 6.13 - Render nulo */}
       <Warning warning="Temos um warning" />
       {/* 6.14 - Listas e Chaves*/}
+      <NumberList number={[1,2,3,4,5]}/>
+
     </>
   );
 }
